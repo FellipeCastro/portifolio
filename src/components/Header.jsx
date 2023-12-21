@@ -7,9 +7,9 @@ export default function Header() {
 
             <nav>
                 <a href="#home">Home</a>
-                <a href="#">About</a>
-                <a href="#">Project</a>
-                <a href="#">Contact</a>
+                <a href="#about">About</a>
+                <a href="#projects">Project</a>
+                <a href="#contact">Contact</a>
             </nav>
         </header>
     )
