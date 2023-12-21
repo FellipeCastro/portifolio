@@ -8,7 +8,7 @@
     background-color: #111;
 }
 
-.text-container {
+.text-container-home {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,12 +16,12 @@
     gap: 2em;
 }
 
-.text-container h2 {
+.text-container-home h2 {
     color: #fff;
     font-weight: 400;
 }
 
-.text-container h2 span {
+.text-container-home h2 span {
     color: #00e0ff;
     font-size: 2em;
     font-weight: 800;
@@ -48,10 +48,10 @@
     border-color: #00e0ff;
 }
 
-.img-container {
+.img-container-home {
     width: 450px;
 }
 
-.img-container img {
+.img-container-home img {
     width: 100%;
 }

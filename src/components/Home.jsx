@@ -7,7 +7,7 @@ import './Home.css'
 export default function Home() {
     return (
         <div className='home' id='home'>
-            <div className="text-container">
+            <div className="text-container-home">
                 <h2>
                     Olá, sou <br />
                     <span>Fellipe Castro</span> <br /> 
@@ -20,7 +20,7 @@ export default function Home() {
                     <a href="#"><FaLinkedinIn /></a>
                 </div>   
             </div>
-            <div className="img-container">
+            <div className="img-container-home">
                 <img src={Img} alt="Home image" />
             </div>
         </div>
