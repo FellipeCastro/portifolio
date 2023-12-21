@@ -27,15 +27,23 @@
     font-weight: 800;
 }
 
-.text-container a {
+.btns-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2em;
+    left: 0;
+}
+
+.btns-container a {
+    font-size: 2em;
     color: #fff;
-    border: 2px solid #fff;
     border-radius: 10px;
-    padding: 1em 2em;
     transition: .5s;
 }
 
-.text-container a:hover {
+.btns-container a:hover {
     color: #00e0ff;
     border-color: #00e0ff;
 }

@@ -1,3 +1,5 @@
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+
 import Img from '../img/img-home.svg'
 
 import './Home.css'
@@ -12,7 +14,12 @@ export default function Home() {
                     Desenvolvedor Front End
                 </h2>
 
-                <a href="#projects">Veja meus projetos</a>
+                <div className="btns-container">
+                    <a href="#"><FaGithub /></a>
+                    <a href="#"><FaLinkedinIn /></a>
+                </div>
+
+                
             </div>
             <div className="img-container">
                 <img src={Img} alt="Home image" />
