@@ -1,3 +1,5 @@
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+
 import Img from '../img/img-home.svg'
 
 import './Home.css'
