@@ -12,18 +12,11 @@ export default function Home() {
                     Desenvolvedor Front End
                 </h2>
 
-<<<<<<< Updated upstream
-                <div className="btns-container">
-                    <a href="#"><FaGithub /></a>
-                    <a href="#"><FaLinkedinIn /></a>
-                </div>
-=======
                 
                 <div className="btns-container">
                     <a href="#"><FaGithub /></a>
                     <a href="#"><FaLinkedinIn /></a>
                 </div>   
->>>>>>> Stashed changes
             </div>
             <div className="img-container">
                 <img src={Img} alt="Home image" />
