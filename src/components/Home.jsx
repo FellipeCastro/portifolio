@@ -12,7 +12,7 @@ export default function Home() {
                     Desenvolvedor Front End
                 </h2>
 
-                <a href="#">Veja meus projetos</a>
+                <a href="#projects">Veja meus projetos</a>
             </div>
             <div className="img-container">
                 <img src={Img} alt="Home image" />

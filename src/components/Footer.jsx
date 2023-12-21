@@ -9,7 +9,7 @@ export default function Footer() {
 
             <ul>
                 <li>
-                    <a href="#"><FaGithub /> - FellipeCastro</a>
+                    <a href="https://github.com/FellipeCastro" target="_blank"><FaGithub /> - FellipeCastro</a>
                 </li>
                 <li>
                     <a href="#"><FaLinkedinIn /> - Fellipe Castro</a>
