@@ -11,7 +11,7 @@ export default function Home() {
                 <h2>
                     Olá, sou <br />
                     <span>Fellipe Castro</span> <br /> 
-                    Desenvolvedor Front End
+                    Desenvolvedor Front-End
                 </h2>
 
                 

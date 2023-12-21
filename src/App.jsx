@@ -6,6 +6,7 @@ import Home from './components/Home'
 import About from './components/About'
 
 import './App.css'
+import Projects from './components/Project'
 
 export default function App() {
 
@@ -15,8 +16,8 @@ export default function App() {
 
       <div className="container">
         <Home />
-
         <About />
+        <Projects />
       </div>    
 
       <Footer />
