@@ -87,11 +87,17 @@
     background-color: transparent;
     color: #00e0ff;
     font-size: 1.1em;
+    font-weight: 800;
     cursor: pointer;
     transition: .5s;
 }
 
 .btn:hover {
     border-color: #fff;
+    color: #fff;
+}
+
+.sent {
+    background-color: #00e0ff;
     color: #fff;
 }

@@ -8,7 +8,6 @@ import Contact from './components/Contact'
 import './App.css'
 
 export default function App() {
-
   return (
     <>
       <Header />
