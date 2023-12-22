@@ -1,0 +1,97 @@
+.contact {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding: 10% 0;
+}
+
+.img-container {
+    width: 600px;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.container-contact {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-contact h2 {
+    width: 100%;
+    color: #00e0ff;
+    font-weight: 400;
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.container-contact form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2em;
+}
+
+.input-container, .textarea-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: .5em;
+}
+
+.input-container label, .textarea-container label {
+    color: #00e0ff;
+    font-weight: 800;
+}
+
+.input-container input, .textarea-container textarea {
+    width: 100%;
+    padding: 1em;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.input-container input::placeholder {
+    color: #777;
+}
+
+.textarea-container textarea {
+    resize: vertical;
+}
+
+.btn {
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3em;
+    border: 2px solid #00e0ff;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #00e0ff;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn:hover {
+    border-color: #fff;
+    color: #fff;
+}

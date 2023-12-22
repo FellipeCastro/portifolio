@@ -38,27 +38,28 @@ export default function Projects() {
 
     return (
         <div className="projects" id='projects'>
-            <h2>Projetos</h2>
-
-            <ul>
-                {projects.map((project, index) => {
-                    return (
-                        <li key={index}>
-                            <div className="info">
-                                <p>
-                                    {project.description}
-                                </p>
-                                <div className="btn-container">
-                                    <a href={project.site} target='_blank'>Ver site</a>
-                                    <a href={project.repositorio} target='_blank'>Ver repositório</a>
+            <div className="container-projects">
+                <h2>Projetos</h2>
+                <ul>
+                    {projects.map((project, index) => {
+                        return (
+                            <li key={index}>
+                                <div className="info">
+                                    <p>
+                                        {project.description}
+                                    </p>
+                                    <div className="btn-container">
+                                        <a href={project.site} target='_blank'>Ver site</a>
+                                        <a href={project.repositorio} target='_blank'>Ver repositório</a>
+                                    </div>
                                 </div>
-                            </div>
-                            <img src={project.src} alt={project.name} />
-                            <h3>{project.name}</h3>
-                        </li>
-                    )
-                })}
-            </ul>
+                                <img src={project.src} alt={project.name} />
+                                <h3>{project.name}</h3>
+                            </li>
+                        )
+                    })}
+                </ul>
+            </div>
         </div>
     )
 }

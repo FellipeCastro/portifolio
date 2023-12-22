@@ -9,8 +9,12 @@
     padding: 10% 0;
 }
 
-.projects h2 {
-    width: 1270px;
+.container-projects {
+    max-width: 1300px;
+}
+
+.container-projects h2 {
+    width: 100%;
     color: #00e0ff;
     font-weight: 400;
     font-size: 2em;
@@ -20,16 +24,16 @@
     margin-bottom: 1em;
 }
 
-.projects ul {
-    max-width: 1300px;
+.container-projects ul {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     gap: 4em;
 }
 
-.projects ul li {
+.container-projects ul li {
     width: 600px;
     display: flex;
     flex-direction: column;
@@ -39,11 +43,11 @@
     position: relative;
 }
 
-.projects ul li img {
+.container-projects ul li img {
     width: 100%;    
 }
 
-.projects ul li h3 {
+.container-projects ul li h3 {
     text-align: center;
     font-weight: 800;
     color: #00e0ff;

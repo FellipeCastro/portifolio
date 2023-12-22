@@ -48,21 +48,23 @@
 .skills ul li {
     display: flex;
     flex-direction: column;
-}
-
-.skills ul li img {
-    width: 135px;
     border-radius: 10px;
+    overflow: hidden;
     cursor: pointer;
     transition: .5s;
 }
 
-.skills ul li img:hover {
-    box-shadow: 0px 0px 30px #fff;
+.skills ul li img {
+    width: 135px;
+}
+
+.skills ul li:hover {
+    transform: translateY(-1em);
 }
 
 .skills ul li h3 {
     text-align: center;
-    color: #222;
-    padding: .5em;
+    color: #00e0ff;
+    padding: .3em;
+    background-color: #222;
 }
