@@ -15,7 +15,7 @@ export default function Footer() {
                     <a href="#"><FaLinkedinIn /> - Fellipe Castro</a>
                 </li>
                 <li>
-                    <a href="#"><FaWhatsapp  /> - (11) 00000-0000</a>
+                    <a href="https://wa.me/5511940618163" target="_blank"><FaWhatsapp  /> - (11) 94061-8163</a>
                 </li>
             </ul>
         </footer>

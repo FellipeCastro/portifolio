@@ -5,19 +5,15 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 
-import './App.css'
-
 export default function App() {
   return (
     <>
       <Header />
       
-      <div className="container">
-        <Home />
-        <About />
-        <Projects />
-        <Contact />
-      </div>    
+      <Home />
+      <About />
+      <Projects />
+      <Contact />   
 
       <Footer />
     </>
