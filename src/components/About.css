@@ -9,7 +9,7 @@
 }
 
 .text-container-about {
-    width: 800px;
+    width: 850px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,10 +39,12 @@
 }
 
 .skills ul {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2em;
+    flex-wrap: wrap;
 }
 
 .skills ul li {
@@ -67,4 +69,14 @@
     color: #00e0ff;
     padding: .3em;
     background-color: #222;
+}
+
+@media screen and (max-width: 900px) {
+    .about {
+        padding-top: 30%;
+    }
+
+    .text-container-about {
+        width: 90%;
+    }
 }
