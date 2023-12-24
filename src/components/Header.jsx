@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { IoMdMenu } from "react-icons/io";
+import { IoMdMenu, IoMdClose  } from "react-icons/io";
 
 import './Header.css'
 
@@ -20,7 +20,7 @@ export default function Header() {
 
     const handleLinkClick = () => {
         if (isOpen) {
-            closeMenu();
+            closeMenu()
         }
     }
 
@@ -36,7 +36,7 @@ export default function Header() {
             </nav>
 
             <button className="menu" onClick={isOpen ? closeMenu : openMenu}>
-                <IoMdMenu />
+                {isOpen ? <IoMdClose /> : <IoMdMenu />}
             </button>
         </header>
     )
