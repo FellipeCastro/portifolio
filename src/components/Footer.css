@@ -34,3 +34,17 @@
 .footer ul li a:hover {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 800px) {
+    .footer {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .footer ul {        
+        margin-left: 0;
+        padding-left: 0;
+        border-left: none; 
+        align-items: center;
+    }
+}
