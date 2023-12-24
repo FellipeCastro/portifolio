@@ -14,19 +14,58 @@
     font-weight: 400;
 }
 
-.header nav {
+.navbar {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1em;
 }
 
-.header nav a {
+.navbar a {
     padding: 1em;
     color: #fff;
     transition: .5s;
 }
 
-.header nav a:hover {
+.navbar a:hover {
     color: #00e0ff;
+}
+
+.menu {
+    display: none;
+    padding: 1em;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.menu svg {
+    font-size: 2em;
+    color: #fff;
+    transition: .5s;
+}
+
+.menu:hover svg {
+    color: #00e0ff;
+}
+
+@media screen and (max-width: 800px) {
+    .menu {
+        display: block;
+        z-index: 999;
+    }
+
+    .navbar {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #222;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+    }
 }
