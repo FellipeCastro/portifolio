@@ -10,7 +10,7 @@
 }
 
 .container-projects {
-    max-width: 1300px;
+    max-width: 1200px;
 }
 
 .container-projects h2 {
@@ -34,7 +34,7 @@
 }
 
 .container-projects ul li {
-    width: 600px;
+    width: 45%;
     display: flex;
     flex-direction: column;
     cursor: pointer;
@@ -104,4 +104,20 @@
 .projects ul li:hover > .info {
     opacity: 1;
     visibility: visible;
+}
+
+@media screen and (max-width: 1200px) {    
+    .container-projects {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .projects {
+        padding: 20% 0;
+    }
+
+    .container-projects ul li {
+        width: 100%;
+    }
 }
