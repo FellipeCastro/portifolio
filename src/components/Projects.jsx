@@ -33,7 +33,8 @@ export default function Projects() {
             src: ageCalculator, 
             site: "https://fellipecastro.github.io/age-calculator/", 
             repositorio: "https://github.com/FellipeCastro/age-calculator", 
-            description: "Calculador de idade feito com HTML, CSS e JAVASCRIPT, que mostra sua idade exata, em anos, meses e dias. Proporcionando uma análise rápida e precisa."}
+            description: "Calculador de idade feito com HTML, CSS e JAVASCRIPT, que mostra sua idade exata, em anos, meses e dias. Proporcionando uma análise rápida e precisa."
+        }
     ]
 
     return (

@@ -69,6 +69,7 @@
     gap: 2em;
     opacity: 0;
     visibility: hidden;
+    pointer-events: none;
     transition: opacity 0.5s, visibility 0.5s;
 }
 
@@ -104,6 +105,7 @@
 .projects ul li:hover > .info {
     opacity: 1;
     visibility: visible;
+    pointer-events: all;
 }
 
 @media screen and (max-width: 1200px) {    
@@ -119,5 +121,13 @@
 
     .container-projects ul li {
         width: 100%;
+    }
+
+    .info p {
+        width: 90%;
+    }
+
+    .btn-container a {
+        font-size: 1em;
     }
 }
