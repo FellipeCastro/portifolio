@@ -123,6 +123,10 @@
         width: 100%;
     }
 
+    .info {
+        gap: 1em;
+    }
+
     .info p {
         width: 90%;
     }

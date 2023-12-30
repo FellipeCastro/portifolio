@@ -22,7 +22,7 @@ export default function About() {
                 <div className="about-me">
                     <h2>Sobre mim</h2>
                     <p>
-                        Me chamo <strong>Fellipe da Silva Castro</strong>, tenho 16 anos e estou cursando o curso técnico em <strong>informática para internet</strong> na <strong>ETEC</strong>. Há um ano, entrei no mundo da programação, focando no desenvolvimento <strong>front-end</strong>, especialmente em <strong>React.js</strong>.  Ao lado dos estudos técnicos, estou aprimorando meu <strong>inglês</strong> no <strong>CNA</strong>, alcançando um nível <strong>intermediário</strong>.
+                        Me chamo <strong>Fellipe da Silva Castro</strong>, tenho 16 anos e estou cursando o curso técnico em <strong>informática para internet</strong> na <strong>ETEC</strong>. Há um ano, entrei no mundo da programação, focando no desenvolvimento <strong>front-end</strong>, especialmente em <strong>React Js</strong>.  Ao lado dos estudos técnicos, estou aprimorando meu <strong>inglês</strong> no <strong>CNA</strong>, alcançando um nível <strong>intermediário</strong>.
                     </p>
                     <p>
                         Além dos estudos, encontro inspiração na resolução de problemas e na colaboração com outros entusiastas da tecnologia. Acredito que a inovação surge da troca de ideias e da busca constante por novos conhecimentos. Estou ansioso para continuar explorando as possibilidades do mundo da programação e contribuir para o desenvolvimento de soluções criativas e impactantes.
