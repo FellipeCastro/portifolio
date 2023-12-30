@@ -17,7 +17,7 @@ export default function About() {
     ]
 
     return (
-        <div className='about' id='about'>
+        <section className='about' id='about'>
             <div className="text-container-about">
                 <div className="about-me">
                     <h2>Sobre mim</h2>
@@ -44,6 +44,6 @@ export default function About() {
                     </ul>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

@@ -39,7 +39,7 @@ export default function Projects() {
     ]
 
     return (
-        <div className="projects" id='projects'>
+        <section className="projects" id='projects'>
             <div className="container-projects">
                 <h2>Projetos</h2>
                 <ul>
@@ -62,6 +62,6 @@ export default function Projects() {
                     })}
                 </ul>
             </div>
-        </div>
+        </section>
     )
 }

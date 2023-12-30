@@ -57,7 +57,7 @@ export default function Contact() {
       }, [isSent]);
 
     return (
-        <div className='contact' id='contact'>
+        <section className='contact' id='contact'>
             <div className="img-container">
                 <img src={imgContact} alt="Contact Image" />
             </div>
@@ -111,6 +111,6 @@ export default function Contact() {
                     </button>
                 </form>
             </div>
-        </div>
+        </section>
     )
 }
