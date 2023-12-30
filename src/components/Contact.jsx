@@ -57,15 +57,15 @@ export default function Contact() {
       }, [isSent]);
 
     return (
-        <div className='contact' id='contact' onSubmit={sendEmail}>
+        <div className='contact' id='contact'>
             <div className="img-container">
-                <img src={imgContact} alt="" />
+                <img src={imgContact} alt="Contact Image" />
             </div>
 
             <div className="container-contact">
                 <h2>Entre em contato comigo!</h2>
 
-                <form method='post' autoComplete='off'>
+                <form method='post' autoComplete='off' onSubmit={sendEmail}>
                     <div className="input-container">
                         <label htmlFor="name">Nome: </label>
                         <input 

@@ -10,7 +10,8 @@ export default function Projects() {
     const projects = [
         {
             name: "Cellphone Store", 
-            src: cellphoneStoreReact, site: "https://fellipecastro.github.io/cellphone-store-react/", 
+            src: cellphoneStoreReact, 
+            site: "https://fellipecastro.github.io/cellphone-store-react/", 
             repositorio: "https://github.com/FellipeCastro/cellphone-store-react", 
             description: "Loja de celulares feita com REACT JS, conectada à API do Mercado Livre. Adicione e remova itens do carrinho de compras com atualizações instantâneas do total a ser pago."
         },

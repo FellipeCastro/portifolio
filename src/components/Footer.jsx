@@ -12,7 +12,7 @@ export default function Footer() {
                     <a href="https://github.com/FellipeCastro" target="_blank"><FaGithub /> - FellipeCastro</a>
                 </li>
                 <li>
-                    <a href="#"><FaLinkedinIn /> - Fellipe Castro</a>
+                    <a href="https://www.linkedin.com/in/fellipe-castro-ab764a2a7/" target="_blank"><FaLinkedinIn /> - Fellipe Castro</a>
                 </li>
                 <li>
                     <a href="https://wa.me/5511940618163" target="_blank"><FaWhatsapp  /> - (11) 94061-8163</a>

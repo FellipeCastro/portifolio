@@ -16,8 +16,8 @@ export default function Home() {
 
                 
                 <div className="btns-container">
-                    <a href="#"><FaGithub /></a>
-                    <a href="#"><FaLinkedinIn /></a>
+                    <a href="#" target="_blank"><FaGithub /></a>
+                    <a href="#" target="_blank"><FaLinkedinIn /></a>
                 </div>   
             </div>
             <div className="img-container-home">
