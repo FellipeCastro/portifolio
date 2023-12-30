@@ -76,6 +76,10 @@
     resize: vertical;
 }
 
+.input-container input:focus-within, .textarea-container textarea:focus-within {
+    border-color: #00e0ff;
+}
+
 .btn {
     width: 100%;
     padding: 1em;
