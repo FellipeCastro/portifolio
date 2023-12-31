@@ -107,7 +107,7 @@ export default function Contact() {
                     </div>
 
                     <button type='submit' className={`btn ${isSent ? 'sent' : ''}`}>
-                        <FaPaperPlane /> - {isSent ? 'Enviado!' : 'Enviar'}
+                        <FaPaperPlane /> - {isSent ? 'Enviado' : 'Enviar'}
                     </button>
                 </form>
             </div>
