@@ -5,7 +5,7 @@ import './Footer.css'
 export default function Footer() {
     return (
         <footer className='footer'>
-            <h1>Fellipe Castro</h1>
+            <a href="#home" className="title-footer">Fellipe Castro</a>
 
             <ul>
                 <li>

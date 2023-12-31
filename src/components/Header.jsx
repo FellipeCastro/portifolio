@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { IoMdMenu, IoMdClose  } from "react-icons/io";
+import { IoMdMenu, IoMdClose  } from "react-icons/io"
 
 import './Header.css'
 
@@ -26,7 +26,7 @@ export default function Header() {
 
     return (
         <header className='header'>
-            <h1>Fellipe Castro</h1>
+            <a href="#home" className="title-header">Fellipe Castro</a>
 
             <nav className="navbar" id="navbar">
                 <a href="#home" onClick={handleLinkClick}>Home</a>
