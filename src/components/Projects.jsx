@@ -61,6 +61,7 @@ export default function Projects() {
                         )
                     })}
                 </ul>
+                <a href="https://github.com/FellipeCastro?tab=repositories" target='_blank' className='see-more'>Ver todos repositórios no Github</a>
             </div>
         </section>
     )

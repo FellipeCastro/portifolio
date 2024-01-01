@@ -11,6 +11,10 @@
 
 .container-projects {
     max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-projects h2 {
@@ -31,6 +35,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 4em;
+    margin-bottom: 2em;
 }
 
 .container-projects ul li {
@@ -106,6 +111,20 @@
     opacity: 1;
     visibility: visible;
     pointer-events: all;
+}
+
+.see-more {
+    color: #fff;
+    font-size: 1.2em;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: .5em;
+    transition: .5s;
+}
+
+.see-more:hover {
+    color: #00e0ff;
+    border-color: #00e0ff;
 }
 
 @media screen and (max-width: 1200px) {    
