@@ -5,15 +5,16 @@ import reactjs from '../img/reactjs.jpg'
 import git from '../img/git.jpg'
 
 import './About.css'
+import ModalSkills from './ModalSkills'
 
 export default function About() {
 
     const skills = [
-        {name: "HTML 5", src: html5},
-        {name: "CSS 3", src: css3},
-        {name: "Javascript", src: javascript},
-        {name: "React JS", src: reactjs},
-        {name: "Git e Github", src: git}
+        {name: "HTML 5", src: html5, description: "HTML5 é a quinta versão da linguagem de marcação utilizada para estruturar conteúdo na web. Introduziu novos elementos e APIs que aprimoram a semântica, o suporte multimídia e a interatividade nas páginas da web."},
+        {name: "CSS 3", src: css3, description: "CSS3 é a terceira versão das Folhas de Estilo em Cascata e é usada para estilizar o layout e a apresentação de páginas web. Introduziu recursos como transições, animações, sombras e bordas arredondadas, oferecendo maior controle estilístico."},
+        {name: "Javascript", src: javascript, description: "JavaScript é uma linguagem de programação de alto nível que é amplamente utilizada para criar interatividade em páginas web. É executada no lado do cliente, permitindo manipulação dinâmica do conteúdo e interação do usuário."},
+        {name: "React JS", src: reactjs, description: " ReactJS é uma biblioteca de JavaScript desenvolvida pelo Facebook. É usada para construir interfaces de usuário reativas e eficientes, facilitando a criação de componentes reutilizáveis e o desenvolvimento de aplicações de página única (SPA)."},
+        {name: "Git e Github", src: git, description: "Git é um sistema de controle de versão distribuído amplamente utilizado para rastrear alterações no código-fonte durante o desenvolvimento de software. GitHub é uma plataforma de hospedagem de código-fonte que utiliza o Git. É popular para colaboração em projetos de software, fornecendo recursos como controle de versão, colaboração, rastreamento de problemas e integração contínua."}
     ]
 
     return (
