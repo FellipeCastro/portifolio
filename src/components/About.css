@@ -61,7 +61,7 @@
 }
 
 .skills ul li:hover {
-    transform: translateY(-1em);
+    transform: translateY(-10px);
 }
 
 .skills ul li h3 {
