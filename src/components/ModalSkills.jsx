@@ -2,9 +2,9 @@ import { IoMdClose } from "react-icons/io";
 
 import './ModalSkills.css'
 
-export default function ModalSkills({ img, title, description, closeModal }) {
+export default function ModalSkills({ classModal, img, title, description, closeModal }) {
     return (
-        <div className='modal'>
+        <div className={classModal}>
             <button className='close-btn' onClick={() => closeModal()}>
                 <IoMdClose />
             </button>

@@ -71,14 +71,13 @@ export default function About() {
                 </div>
             </div>
 
-            {isModalOpen && (
-                <ModalSkills 
-                    img={skillData.img}
-                    title={skillData.title}
-                    description={skillData.description}
-                    closeModal={closeModal}
-                />
-            )}
+            <ModalSkills
+                classModal={isModalOpen ? 'modal' : 'modal hide'}
+                img={skillData.img}
+                title={skillData.title}
+                description={skillData.description}
+                closeModal={closeModal}
+            />
         </section>
     )
 }
