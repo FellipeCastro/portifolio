@@ -71,6 +71,15 @@
     background-color: #222;
 }
 
+.skill-description {
+    margin-top: 1em;
+    font-weight: bold;
+    color: #fff;
+    text-align: justify;
+    line-height: 1.5em;
+    text-indent: 1em;
+}
+
 @media screen and (max-width: 900px) {
     .about {
         padding-top: 30%;

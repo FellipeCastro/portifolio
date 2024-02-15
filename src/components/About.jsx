@@ -6,19 +6,11 @@ import javascript from '../img/javascript.jpg'
 import reactjs from '../img/reactjs.jpg'
 import git from '../img/git.jpg'
 
-import ModalSkills from './ModalSkills'
-
 import './About.css'
 
 export default function About() {
 
-    const [skillData, setSkillData] = useState({
-        img: "",
-        title: "",
-        description: ""
-    })
-
-    const [isModalOpen, setIsModalOpen] = useState(false)
+    const [skillDescription, setSkillDescription] = useState(null)
     
     const skills = [
         {name: "HTML 5", src: html5, description: "HTML5 é a quinta versão da linguagem de marcação utilizada para estruturar conteúdo na web. Introduziu novos elementos e APIs que aprimoram a semântica, o suporte multimídia e a interatividade nas páginas da web."},
@@ -28,18 +20,8 @@ export default function About() {
         {name: "Git e Github", src: git, description: "Git é um sistema de controle de versão distribuído amplamente utilizado para rastrear alterações no código-fonte durante o desenvolvimento de software. GitHub é uma plataforma de hospedagem de código-fonte que utiliza o Git. É popular para colaboração em projetos de software, fornecendo recursos como controle de versão, colaboração, rastreamento de problemas e integração contínua."}
     ]
 
-    const openModal = (skill) => {
-        setSkillData({
-            img: skill.src,
-            title: skill.name,
-            description: skill.description
-        })
-
-        setIsModalOpen(true)
-    }
-
-    const closeModal = () => {
-        setIsModalOpen(false)
+    const toggleSkillDescription = (description) => {
+        setSkillDescription(skillDescription === description ? null : description)
     }
 
     return (
@@ -61,7 +43,7 @@ export default function About() {
                     <ul>
                         {skills.map((skill, index) => {
                             return (
-                                <li key={index} onClick={() => openModal(skill)}>
+                                <li key={index} onClick={() => toggleSkillDescription(skill.description)}>
                                     <img src={skill.src} alt={skill.name} />
                                     <h3>{skill.name}</h3>
                                 </li>
@@ -69,15 +51,11 @@ export default function About() {
                         })}
                     </ul>
                 </div>
+                
+                {skillDescription && (
+                    <p className='skill-description'>{skillDescription}</p>
+                )}
             </div>
-
-            <ModalSkills
-                classModal={isModalOpen ? 'modal' : 'modal hide'}
-                img={skillData.img}
-                title={skillData.title}
-                description={skillData.description}
-                closeModal={closeModal}
-            />
         </section>
     )
 }
