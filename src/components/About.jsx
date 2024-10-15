@@ -51,10 +51,8 @@ export default function About() {
                         })}
                     </ul>
                 </div>
-                
-                {skillDescription && (
-                    <p className='skill-description'>{skillDescription}</p>
-                )}
+
+                <p className={`skill-description ${skillDescription ? '' : 'hidden'}`}>{skillDescription}</p>
             </div>
         </section>
     )
