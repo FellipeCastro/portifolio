@@ -1,13 +1,21 @@
 import cellphoneStoreReact from '../img/cellphone-store-react.png'
 import todoListReact from '../img/todo-list-react.png'
 import landingPageProlingo from '../img/landing-page-prolingo.png'
-import ageCalculator from '../img/age-calculator.png'
+// import ageCalculator from '../img/age-calculator.png'
+import taskManager from '../img/task-manager.png'
 
 import './Projects.css'
 
 export default function Projects() {
 
     const projects = [
+        {
+            name: "Cellphone Store", 
+            src: taskManager, 
+            site: "https://task-manager-web-tau.vercel.app/", 
+            repositorio: "https://github.com/FellipeCastro/task-manager", 
+            description: "Uma plataforma de gerenciamento de tarefas criada com REACT JS e NODE JS, projetada para facilitar a organização e execução de tarefas com suporte para listas de tarefas, subtarefas e boards personalizados."
+        },
         {
             name: "Cellphone Store", 
             src: cellphoneStoreReact, 
@@ -29,13 +37,13 @@ export default function Projects() {
             repositorio: "https://github.com/FellipeCastro/landing-page-prolingo", 
             description: "Landing page responsiva feita com HTML, CSS e JAVASCRIPT, apresentando modais explicativos e uma barra de navegação elegante."
         },
-        {
-            name: "Age Calculator", 
-            src: ageCalculator, 
-            site: "https://fellipecastro.github.io/age-calculator/", 
-            repositorio: "https://github.com/FellipeCastro/age-calculator", 
-            description: "Calculador de idade feito com HTML, CSS e JAVASCRIPT, que mostra sua idade exata, em anos, meses e dias. Proporcionando uma análise rápida e precisa."
-        }
+        // {
+        //     name: "Age Calculator", 
+        //     src: ageCalculator, 
+        //     site: "https://fellipecastro.github.io/age-calculator/", 
+        //     repositorio: "https://github.com/FellipeCastro/age-calculator", 
+        //     description: "Calculador de idade feito com HTML, CSS e JAVASCRIPT, que mostra sua idade exata, em anos, meses e dias. Proporcionando uma análise rápida e precisa."
+        // }
     ]
 
     return (
