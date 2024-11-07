@@ -10,7 +10,7 @@ export default function Projects() {
 
     const projects = [
         {
-            name: "Cellphone Store", 
+            name: "TaskManager", 
             src: taskManager, 
             site: "https://task-manager-web-tau.vercel.app/", 
             repositorio: "https://github.com/FellipeCastro/task-manager", 
