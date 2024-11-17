@@ -9,7 +9,7 @@
 }
 
 .text-container-about {
-    width: 800px;
+    max-width: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,7 +43,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
-    gap: 1em;
+    gap: 2em;
     flex-wrap: wrap;
 }
 
@@ -63,6 +63,10 @@
 
 .skills ul li:hover {
     transform: translateY(-10px);
+}
+
+.skills ul li:active {
+    transform: translateY(10px);
 }
 
 .skills ul li h3 {

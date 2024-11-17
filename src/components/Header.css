@@ -30,7 +30,11 @@
 
 .navbar a:hover {
     color: #00e0ff;
-    transform: translateY(-.5em);
+    transform: translateY(-.3em);
+}
+
+.navbar a:active {
+    transform: translateY(.3em);
 }
 
 .menu {
