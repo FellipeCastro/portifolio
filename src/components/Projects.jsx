@@ -1,8 +1,9 @@
+import taskManager from '../img/task-manager.png'
+import devBurger from '../img/dev-burger.png'
 import cellphoneStoreReact from '../img/cellphone-store-react.png'
 import todoListReact from '../img/todo-list-react.png'
-import landingPageProlingo from '../img/landing-page-prolingo.png'
+// import landingPageProlingo from '../img/landing-page-prolingo.png'
 // import ageCalculator from '../img/age-calculator.png'
-import taskManager from '../img/task-manager.png'
 
 import './Projects.css'
 
@@ -15,6 +16,13 @@ export default function Projects() {
             site: "https://task-manager-web-tau.vercel.app/", 
             repositorio: "https://github.com/FellipeCastro/task-manager", 
             description: "Uma plataforma de gerenciamento de tarefas criada com REACT JS e NODE JS, projetada para facilitar a organização e execução de tarefas com suporte para listas de tarefas, subtarefas e boards personalizados."
+        },
+        {
+            name: "Dev Burger", 
+            src: devBurger, 
+            site: "https://dev-burger-beta.vercel.app/", 
+            repositorio: "https://github.com/FellipeCastro/dev-burger", 
+            description: "Dev Burger é um site de hamburgueria desenvolvido em REACT JS, oferecendo uma experiência fluida e intuitiva para os clientes. Com um carrinho de compras moderno, os usuários podem personalizar seus pedidos e enviá-los diretamente para o WhatsApp. Além disso, a integração com a API ViaCEP facilita o preenchimento automático dos dados de entrega, tornando o processo mais rápido e prático."
         },
         {
             name: "Cellphone Store", 
@@ -30,13 +38,13 @@ export default function Projects() {
             repositorio: "https://github.com/FellipeCastro/todo-list-react", 
             description: "Todo list feita em REACT JS, oferecendo modos claro/escuro, filtragem intuitiva e operações simples de adição e remoção de tarefas."
         },
-        {
-            name: "Landing Page", 
-            src: landingPageProlingo, 
-            site: "https://fellipecastro.github.io/landing-page-prolingo/", 
-            repositorio: "https://github.com/FellipeCastro/landing-page-prolingo", 
-            description: "Landing page responsiva feita com HTML, CSS e JAVASCRIPT, apresentando modais explicativos e uma barra de navegação elegante."
-        },
+        // {
+        //     name: "Landing Page", 
+        //     src: landingPageProlingo, 
+        //     site: "https://fellipecastro.github.io/landing-page-prolingo/", 
+        //     repositorio: "https://github.com/FellipeCastro/landing-page-prolingo", 
+        //     description: "Landing page responsiva feita com HTML, CSS e JAVASCRIPT, apresentando modais explicativos e uma barra de navegação elegante."
+        // },
         // {
         //     name: "Age Calculator", 
         //     src: ageCalculator, 
